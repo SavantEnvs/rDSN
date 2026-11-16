@@ -1,0 +1,1 @@
+{"status":"app_status::AS_AVAILABLE","app_type":"pegasus","app_name":"temp","app_id":1,"partition_count":8,"envs":{"k":"v"},"is_stateful":1,"max_replica_count":3}

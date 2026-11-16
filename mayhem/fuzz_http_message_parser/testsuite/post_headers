@@ -1,0 +1,14 @@
+POST / HTTP/1.1
+id: 1
+trace_id: 2
+rpc_name: RPC_TEST
+app_id: 1
+partition_index: 0
+serialize_format: DSF_THRIFT_BINARY
+from_address: 127.0.0.1:8080
+client_timeout: 1000
+client_thread_hash: 5
+client_partition_hash: 99
+Content-Length: 4
+
+abcd

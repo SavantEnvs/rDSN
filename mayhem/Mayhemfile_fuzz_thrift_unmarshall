@@ -1,0 +1,8 @@
+project: savantenvs/rDSN
+target: fuzz_thrift_unmarshall
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_thrift_unmarshall/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_thrift_unmarshall
+    libfuzzer: true
